@@ -1,10 +1,17 @@
 {
   "version": "5",
   "specifiers": {
+    "npm:@deno/vite-plugin@^1.0.5": "1.0.5_vite@6.3.5__picomatch@4.0.2",
     "npm:typescript@~5.8.3": "5.8.3",
     "npm:vite@^6.3.5": "6.3.5_picomatch@4.0.2"
   },
   "npm": {
+    "@deno/vite-plugin@1.0.5_vite@6.3.5__picomatch@4.0.2": {
+      "integrity": "sha512-tLja5n4dyMhcze1NzvSs2iiriBymfBlDCZIrjMTxb9O2ru0gvmV6mn5oBD2teNw5Sd92cj3YJzKwsAs8tMJXlg==",
+      "dependencies": [
+        "vite"
+      ]
+    },
     "@esbuild/aix-ppc64@0.25.5": {
       "integrity": "sha512-9o3TMmpmftaCMepOdA5k/yDw8SfInyzWWTjYTFCX3kPSDJMROQTb8jg+h9Cnwnmm1vOzvxN7gIfB5V2ewpjtGA==",
       "os": ["aix"],
@@ -360,6 +367,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@deno/vite-plugin@^1.0.5",
         "npm:typescript@~5.8.3",
         "npm:vite@^6.3.5"
       ]
